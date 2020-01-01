@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class = "l-container">
   <div>
   <h1>ログインユーザ</h1>
   <form @submit.prevent="loginUser">
@@ -36,3 +36,9 @@
     }
   }
 </script>
+
+<style scoped>
+.l-container {
+  margin: 0, auto
+}
+</style>
