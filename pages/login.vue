@@ -1,6 +1,6 @@
 <template>
-<div class = "l-container">
-  <div>
+<div class="centering_parent">
+  <div  class="centering_item">
   <h1>ログインユーザ</h1>
   <form @submit.prevent="loginUser">
     <div class="form-group">
@@ -38,7 +38,15 @@
 </script>
 
 <style scoped>
-.l-container {
-  margin: 0, auto
+.centering_parent {
+    padding: 20px;              /* 余白指定 */
+}
+
+.centering_item {
+    display: block;
+    width: 700px;               /* 幅指定 */
+    margin:  0 auto;            /* 中央寄せ */
+    background-color:  #ddd;    /* 背景色指定 */
+
 }
 </style>
