@@ -1,5 +1,10 @@
 
 export default {
+  server: {
+    port: 8000, // デフォルト: 3000
+    host: '0.0.0.0', // デフォルト: localhost,
+    timing: false
+  },
   mode: 'universal',
   /*
   ** Headers of the page
