@@ -6,7 +6,7 @@
         nuxt-second
       </h1>
       <h2 class="subtitle">
-        My good Nuxt.js project
+        My good Nuxt.js project started.
       </h2>
       <div class="links">
         <a
